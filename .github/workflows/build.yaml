@@ -19,4 +19,4 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           push: true
-          tags: ${{ secrets.DOCKER_SERVER }}/${{ secrets.DOCKER_SERVER }}/serve:latest
+          tags: ${{ secrets.DOCKER_SERVER }}/${{ secrets.DOCKER_USERNAME }}/serve:latest
